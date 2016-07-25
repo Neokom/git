@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя первая страница</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+Привет <a href="http://google.com">мир</a>! <br>
+Привет <a id="a2" href="http://google.com">мир</a>! <br>
+Привет <a id="a3" href="http://google.com">мир</a>! <br>
+<hr>
+<strong>Hello</strong> <br><br>
+<em>World</em>
+<h2>Lol</h2>
+
+<a href="#" class="human">Человек!</a> <br/><br/>
+
+<img src="img/x5.png" width="150px"/>
+<div class="message success">Все файлы успешно удалены</div>
+<div class="message fail">Все файлы не были удалены</div>
+<table border="3">
+    <caption>Таблица</caption>
+    <tr>
+        <th>Здравствуй</th>
+        <th>Hi</th>
+        <th>Hallo</th>
+        <th>Ciao</th>
+    </tr>
+    <tr>
+        <td rowspan="2">#1</td>
+        <td>Привет</td>
+        <td>мир</td>
+        <td>!</td>
+    </tr>
+    <tr>
+        <td>Привет</td>
+        <td>мир</td>
+        <td>!</td>
+    </tr>
+    <tr>
+        <td>#2</td>
+        <td>Привет</td>
+        <td>мир</td>
+        <td>!</td>
+    </tr>
+    <tr>
+        <td>#3</td>
+        <td>Привет</td>
+        <td>мир</td>
+        <td>!</td>
+    </tr>
+    <tr>
+        <td>#4</td>
+        <td>Привет</td>
+        <td>мир</td>
+        <td>!</td>
+    </tr>
+</table>
+<br>
+<table border="1" cellpadding="5" cellspacing="0">
+    <tr>
+        <td colspan="2" bgcolor="green" align="center">Колонка</td>
+    </tr>
+    <tr>
+        <td valign="top" align="center">Колонка</td>
+        <td width="90%" valign="top">Колонка</td>
+    </tr>
+</table>
+<br>
+<input value="Введи имя"/><br><br>
+<textarea></textarea><br><br>
+<form oninput="result.value=(cm.value/2.54).toFixed(2)"><h2> Пересчет см в дюймы: </h2>
+    <p>Введи длину в см:
+        <input type="number" name="cm" autofocus></p>
+    <p>Длина в дюймах:
+        <output name="result"></output>
+    </p>
+</form>
+<select multiple="multiple">
+    <option value="Понедельник">Понедельник</option>
+    <option value="Вторник">Вторник</option>
+    <option value="Среда">Среда</option>
+    <option value="Четверг">Четверг</option>
+    <option value="Пятница">Пятница</option>
+</select>
+<menu>
+    <li>Январь</li>
+    <li>Февраль</li>
+    <li>Март</li>
+</menu>
+<ol type="A">
+    <li>Апрель</li>
+    <li>Май</li>
+    <li>Июнь</li>
+</ol>
+<input type="range"/> <br>
+</body>
+</html>
