@@ -1,0 +1,99 @@
+.table {
+    width: 100%;
+    height: 80px;
+    background: #FBD00F;
+    font-size: x-large;
+    font-family: "Comic Sans MS";
+    table-layout: fixed;
+    color: #B2870A;
+}
+
+td {
+    text-align: center;
+}
+
+.block {
+    font-size: small;
+}
+
+.disable {
+    color: #E6BF0D;
+}
+
+.redText {
+    color: #B64B0F;
+}
+
+.table2 {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.valid{
+    width: 150px;
+    text-align: right;
+}
+
+.table3 {
+    width: 100%;
+}
+
+.address{
+    width: 270px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.word{
+    text-align: right;
+
+}
+
+.address2{
+    width: 300px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.balance{
+    width: 130px;
+}
+
+.balance2{
+    text-align: right;
+}
+
+.quantity{
+    text-align: left;
+    width: auto;
+}
+
+.coments{
+    text-align: left;
+}
+
+.archive{
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #8DBD36;
+    color: white;
+    padding: 10px 35px;
+}
+
+.no{
+    margin-left: 10px;
+    margin-top: 30px;
+    background-color: #8DBD36;
+    color: white;
+    padding: 10px 35px;
+    margin-left: 1200px;
+}
+
+.go{
+    background-color: #DDDDDD;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: #B9B9B9;
+    padding: 10px 35px;
+}
