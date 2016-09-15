@@ -1,15 +1,17 @@
 .table {
-    width: 100%;
+    width: 1400px;
     height: 80px;
     background: #FBD00F;
     font-size: x-large;
-    font-family: "Comic Sans MS";
+    font-family: Arial;
     table-layout: fixed;
     color: #B2870A;
+    text-align: center;
+    padding-top: 20px;
 }
 
-td {
-    text-align: center;
+body {
+    background-color: #F2F2F2;
 }
 
 .block {
@@ -25,75 +27,81 @@ td {
 }
 
 .table2 {
-    width: 100%;
-    padding-top: 10px;
+    width: 1400px;
+    padding: 10px;
 }
 
-.valid{
-    width: 150px;
+.valid {
+    width: 140px;
     text-align: right;
 }
 
 .table3 {
-    width: 100%;
+    width: 1400px;
+    background-color: #F2F2F2;
+    text-align: center;
 }
 
-.address{
+.address {
     width: 270px;
     text-align: left;
     padding-left: 20px;
 
 }
 
-.word{
+.word {
     text-align: right;
+    width: 90px;
 
 }
 
-.address2{
+.address2 {
     width: 300px;
     text-align: left;
     padding-left: 10px;
 }
 
-.balance{
+.balance {
     width: 130px;
 }
 
-.balance2{
+.balance2 {
     text-align: right;
+    font-weight: 400;
 }
 
-.quantity{
+.quantity {
+    text-align: center;
+    width: 470px;
+}
+
+.coments {
     text-align: left;
-    width: auto;
 }
 
-.coments{
-    text-align: left;
-}
-
-.archive{
+.archive {
     margin-left: 10px;
     margin-top: 30px;
     background-color: #8DBD36;
     color: white;
-    padding: 10px 35px;
+    padding: 10px 0 10px 0;
+    width: 170px;
 }
 
-.no{
-    margin-left: 10px;
-    margin-top: 30px;
+.no {
+    margin-left: 500px;
+    margin-top: -100px;
     background-color: #8DBD36;
     color: white;
-    padding: 10px 35px;
-    margin-left: 1200px;
+    padding: 10px 0 10px 0;
+    width: 170px;
 }
 
-.go{
+.go {
     background-color: #DDDDDD;
     margin-left: 10px;
     margin-top: 30px;
     color: #B9B9B9;
-    padding: 10px 35px;
+    padding: 10px 0 10px 0;
+    width: 170px;
 }
