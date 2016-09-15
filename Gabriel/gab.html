@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Gabriel</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
     <link rel="stylesheet" href="gab.css" type="text/css">
 </head>
-<body>
-<table class="table" rules="cols">
-    <tr class="row">
+<p>
+<table class="table" rules="cols" border="1">
+    <tr>
         <td class="redText">
             <ins>Gabriel</ins>
         </td>
@@ -39,7 +40,7 @@
         <td>421-7176-1</td>
         <td>А</td>
         <td class="address2">РФ, г.Москва, ул.Усневича, д.22, корп.1</td>
-        <td class="balance2">10</td>
+        <td class="balance2"><b>10</b></td>
         <td>
             <progress max="1000" value="200"></progress>
         </td>
@@ -51,7 +52,7 @@
         <td>421-7736-1</td>
         <td>А</td>
         <td class="address2">Moldova, Chisinau, str. Alexandru cel Bun, 98</td>
-        <td class="balance2">35</td>
+        <td class="balance2"><b>35</b></td>
         <td>
             <progress max="1000" value="100"></progress>
         </td>
@@ -108,8 +109,8 @@
         </td>
     </tr>
 </table>
-    <button class="archive">Архив заявок</button>
-    <button class="no">Отменить</button>
-    <button class="go">Отправить</button>
+<span><p><input type="button" value="Архив заявок" class="archive"></p></span>
+<span><p><input type="button" value="Отменить" class="no"></p></span>
+<span><p><input type="button" value="Отправить" class="go"></p></span>
 </body>
 </html>
