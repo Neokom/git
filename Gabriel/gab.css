@@ -3,15 +3,14 @@
     height: 80px;
     background: #FBD00F;
     font-size: x-large;
-    font-family: Arial;
     table-layout: fixed;
     color: #B2870A;
     text-align: center;
-    padding-top: 20px;
 }
 
 body {
     background-color: #F2F2F2;
+    font-family: "Arial";
 }
 
 .block {
@@ -56,7 +55,7 @@ body {
 }
 
 .address2 {
-    width: 300px;
+    width: 330px;
     text-align: left;
     padding-left: 10px;
 }
@@ -79,7 +78,18 @@ body {
     text-align: left;
 }
 
-.archive {
+.allbutton:after{
+    float: left;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.twobutton{
+    float: right;
+}
+.archive{
+    cursor: pointer;
     margin-left: 10px;
     margin-top: 30px;
     background-color: #8DBD36;
@@ -88,20 +98,21 @@ body {
     width: 170px;
 }
 
-.no {
-    margin-left: 500px;
-    margin-top: -100px;
-    background-color: #8DBD36;
-    color: white;
-    padding: 10px 0 10px 0;
-    width: 170px;
-}
-
-.go {
+.go{
+    cursor: pointer;
     background-color: #DDDDDD;
     margin-left: 10px;
     margin-top: 30px;
     color: #B9B9B9;
+    padding: 10px 0 10px 0;
+    width: 170px;
+}
+
+.no{
+    cursor: pointer;
+    /*margin-left: 500px;*/
+    background-color: #8DBD36;
+    color: white;
     padding: 10px 0 10px 0;
     width: 170px;
 }
