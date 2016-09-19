@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="gab.css" type="text/css">
 </head>
 <body>
-<table class="table" rules="cols" cellpadding="5">
+<table class="table" rules="cols">
     <tr>
-        <td class="redText">
+        <td class="vertical">
             <ins>Gabriel</ins>
         </td>
-        <td>Gabriel
+        <td class="vertical">Gabriel
             <small>блоки</small>
         </td>
-        <td>
+        <td class="vertical">
             <ins>Сирена</ins>
         </td>
-        <td>Amadeus</td>
-        <td class="disable">Sabre</td>
-        <td class="disable">Galileo</td>
-        <td>Бумажные</td>
+        <td class="vertical">Amadeus</td>
+        <td class="disable vertical">Sabre</td>
+        <td class="disable vertical">Galileo</td>
+        <td class="vertical">Бумажные</td>
     </tr>
 </table>
 <table class="table2">
@@ -37,11 +37,11 @@
 <hr/>
 <table class="table3">
     <tr>
-        <td>421-7176-1</td>
-        <td>А</td>
+        <td class="valid">421-7176-1</td>
+        <td class="word">А</td>
         <td class="address2">РФ, г.Москва, ул.Усневича, д.22, корп.1</td>
         <td class="balance2"><b>10</b></td>
-        <td>
+        <td class="quantity2">
             <progress max="1000" value="200"></progress>
         </td>
         <td class="coments2">
@@ -49,11 +49,11 @@
         </td>
     </tr>
     <tr>
-        <td>421-7736-1</td>
-        <td>А</td>
+        <td class="valid">421-7736-1</td>
+        <td class="word">А</td>
         <td class="address2">Moldova, Chisinau, str. Alexandru cel Bun, 98</td>
         <td class="balance2"><b>35</b></td>
-        <td>
+        <td class="quantity2">
             <progress max="1000" value="100"></progress>
         </td>
         <td class="coments2">
@@ -61,11 +61,11 @@
         </td>
     </tr>
     <tr>
-        <td>421-3476-1</td>
-        <td></td>
+        <td class="valid">421-3476-1</td>
+        <td class="word"></td>
         <td class="address2">...г.Кишенев, бульвар Штефан чел Маре, 3</td>
         <td class="balance2">50</td>
-        <td>
+        <td class="quantity2">
             <progress max="1000" value="20"></progress>
         </td>
         <td class="coments2">
@@ -73,11 +73,11 @@
         </td>
     </tr>
     <tr>
-        <td>421-7176-1</td>
-        <td>А</td>
+        <td class="valid">421-7176-1</td>
+        <td class="word">А</td>
         <td class="address2">РФ, г.Москва, ул.Усневича д.22, корп.1</td>
         <td class="balance2">70</td>
-        <td>
+        <td class="quantity2">
             <progress max="1000" value="200"></progress>
         </td>
         <td class="coments2">
@@ -85,11 +85,11 @@
         </td>
     </tr>
     <tr>
-        <td>421-7736-1</td>
-        <td>А</td>
+        <td class="valid">421-7736-1</td>
+        <td class="word">А</td>
         <td class="address2">Moldova, Chisinau, str. Alexandru cel Bun, 98</td>
         <td class="balance2">75</td>
-        <td>
+        <td class="quantity2">
             <progress max="1000" value="1000"></progress>
         </td>
         <td class="coments2">
@@ -97,11 +97,11 @@
         </td>
     </tr>
     <tr>
-        <td>421-3476-1</td>
-        <td>А</td>
+        <td class="valid">421-3476-1</td>
+        <td class="word">А</td>
         <td class="address2">...г.Кишенев, бульвар Штефан чел Маре, 3</td>
         <td class="balance2">100</td>
-        <td>
+        <td class="quantity2">
             <progress max="1000" value="20"></progress>
         </td>
         <td class="coments2">
@@ -111,10 +111,6 @@
 </table>
 <div class="allbutton">
     <input type="button" value="Архив заявок" class="archive">
-    <!--<input type="button" value="Отменить" class="no">-->
-    <!--<input type="button" value="Отправить" class="go">-->
-</div>
-<div class="twobutton">
     <input type="button" value="Отменить" class="no">
     <input type="button" value="Отправить" class="go">
 </div>
