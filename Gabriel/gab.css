@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.vertical{
+.vertical {
     vertical-align: middle;
 }
 
@@ -80,7 +80,7 @@ body {
     width: 490px;
 }
 
-.quantity2{
+.quantity2 {
     width: 490px;
 }
 
@@ -89,20 +89,25 @@ body {
     width: 420px;
 }
 
-.coments2{
+.coments2 {
     width: 420px;
     text-align: left;
 }
 
-.allbutton:after{
-    float: left;
+.allbutton:after {
+
     content: "";
     display: table;
     clear: both;
     width: 100%;
 }
 
-.archive{
+/*.twobutton{*/
+/**/
+/*}*/
+
+.archive {
+    float: left;
     cursor: pointer;
     margin-left: 10px;
     margin-top: 40px;
@@ -112,7 +117,18 @@ body {
     width: 170px;
 }
 
-.go{
+.no {
+    cursor: pointer;
+    margin-left: 870px;
+    background-color: #8DBD36;
+    color: white;
+    padding: 10px 0 10px 0;
+    width: 170px;
+    float: right;
+}
+
+.go {
+    float: right;
     cursor: pointer;
     background-color: #DDDDDD;
     margin-left: 10px;
@@ -122,11 +138,22 @@ body {
     width: 170px;
 }
 
-.no{
-    cursor: pointer;
-    margin-left: 870px;
-    background-color: #8DBD36;
-    color: white;
-    padding: 10px 0 10px 0;
-    width: 170px;
+.bid {
+    font-size: 14pt;
+    font-weight: 600;
+    padding-top: 30px;
+    color: #777777;
+}
+
+.update {
+    padding-left: 850px;
+}
+
+.yellow {
+    background: #FCD20D;
+}
+
+.table4 {
+    border: 1px solid grey;
+
 }
