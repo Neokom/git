@@ -8,6 +8,15 @@
     text-align: center;
 }
 
+ins {
+    cursor: pointer;
+}
+
+.gabriel:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .vertical {
     vertical-align: middle;
 }
@@ -94,22 +103,20 @@ body {
     text-align: left;
 }
 
-.allbutton:after {
+/*.allbutton:after {*/
 
-    content: "";
-    display: table;
-    clear: both;
-    width: 100%;
-}
-
-/*.twobutton{*/
-/**/
+/*content: "";*/
+/*display: table;*/
+/*clear: both;*/
+/*width: 100%;*/
 /*}*/
 
+.twobutton {
+    float: right;
+}
+
 .archive {
-    float: left;
     cursor: pointer;
-    margin-left: 10px;
     margin-top: 40px;
     background-color: #8DBD36;
     color: white;
@@ -119,16 +126,13 @@ body {
 
 .no {
     cursor: pointer;
-    margin-left: 870px;
     background-color: #8DBD36;
     color: white;
     padding: 10px 0 10px 0;
     width: 170px;
-    float: right;
 }
 
 .go {
-    float: right;
     cursor: pointer;
     background-color: #DDDDDD;
     margin-left: 10px;
@@ -138,15 +142,12 @@ body {
     width: 170px;
 }
 
-.bid {
+.big {
     font-size: 14pt;
     font-weight: 600;
     padding-top: 30px;
     color: #777777;
-}
-
-.update {
-    padding-left: 850px;
+    float: right;
 }
 
 .yellow {
@@ -155,5 +156,9 @@ body {
 
 .table4 {
     border: 1px solid grey;
+    padding: 10px;
+}
 
+.blue {
+    background: #B2D6FA;
 }

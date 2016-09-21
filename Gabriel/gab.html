@@ -7,21 +7,21 @@
     <link rel="stylesheet" href="gab.css" type="text/css">
 </head>
 <body>
-<table class="table" rules="cols">
+<table class="table">
     <tr>
-        <td class="vertical">
+        <td class="vertical redText">
             <ins>Gabriel</ins>
         </td>
-        <td class="vertical">Gabriel
-            <small>блоки</small>
+        <td class="vertical"><span class="gabriel">Gabriel</span>
+            <span class="block">блоки</span>
         </td>
         <td class="vertical">
-            <ins>Сирена</ins>
+            <a class="gabriel">Сирена</a>
         </td>
-        <td class="vertical">Amadeus</td>
+        <td class="vertical"><span class="gabriel">Amadeus</span></td>
         <td class="disable vertical">Sabre</td>
         <td class="disable vertical">Galileo</td>
-        <td class="vertical">Бумажные</td>
+        <td class="vertical"><span class="gabriel">Бумажные</span></td>
     </tr>
 </table>
 <table class="table2">
@@ -111,30 +111,57 @@
 </table>
 <div class="allbutton">
     <input type="button" value="Архив заявок" class="archive">
-    <input type="button" value="Отменить" class="no">
-    <input type="button" value="Отправить" class="go">
-    <!--<div class="twobutton">-->
-        <!--<input type="button" value="Отменить" class="no">-->
-        <!--<input type="button" value="Отправить" class="go">-->
-    <!--</div>-->
+    <div class="twobutton">
+        <input type="button" value="Отменить" class="no">
+        <input type="button" value="Отправить" class="go">
+    </div>
 </div>
 <h2></h2>
 <h6></h6>
-<table>
-    <tr>
-        <td class="bid">Предыдущие заявки</td>
-        <td class="update">Обновлено 13.11.2012, 15:45</td>
-        <img src="image/i.jpg" alt="обновить" width="30" height="30"/>
-    </tr>
-</table>
-<table class="table4" border="1">
-    <tr class="yellow">
-        <th>Дата, время заявки</th>
-        <th>Номер заявки</th>
-        <th>Статус</th>
-        <th>Система бронирования</th>
-        <th>Заказано</th>
-    </tr>
-</table>
+
+<div class="big">
+    <div class="previous">Предыдущие заявки</div>
+    <div class="update">
+        <div>Обновлено 13.11.2012, 15:45</div>
+        <div><img src="image/i.jpg" alt="обновить" width="30" height="30"/></div>
+    </div>
+
+    <table class="table4" border="1" width="100%">
+        <tr class="yellow">
+            <th>Дата, время заявки</th>
+            <th>Номер заявки</th>
+            <th>Статус</th>
+            <th>Система бронирования</th>
+            <th>Заказано</th>
+        </tr>
+        <tr class="blue">
+            <td>21.12.2012, 08:04</td>
+            <td>32512192E75B</td>
+            <td>На рассмотрении</td>
+            <td>Gabriel</td>
+            <td>400</td>
+        </tr>
+        <tr class="blue">
+            <td>18.12.2012, 10:04</td>
+            <td>32512192E75B</td>
+            <td>На рассмотрении</td>
+            <td>Amadeus</td>
+            <td>350</td>
+        </tr>
+        <tr>
+            <td>13.12.2012, 08:23</td>
+            <td>32512192E75B</td>
+            <td>Рассмотерна</td>
+            <td>Gabriel</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>21.12.2012, 08:23</td>
+            <td>32512192E75B</td>
+            <td>Рассмотерна</td>
+            <td>Gabriel</td>
+            <td>200</td>
+        </tr>
+    </table>
 </body>
 </html>
